@@ -83,3 +83,103 @@ body {
   color: #6f6f6f;
   margin: 0;
 }
+/* ====== Main ====== */
+.content {
+  background-color: #ffd6c5;
+  background-image: url(../imagenes/background_reservation.svg);
+  background-size: cover;
+  min-height: 100vh;
+}
+.form-container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.form-container__title {
+  font-weight: 500;
+  letter-spacing: -1px;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+}
+.form {
+  max-width: 385px;
+  text-align: left;
+}
+.form__label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 8px;
+}
+.form__input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  width: 385px;
+  height: 60px;
+  margin-bottom: 32px;
+  border-radius: 4px;
+}
+.form__button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  background-color: #e96e3a;
+  margin-top: 16px;
+  height: 60px;
+  width: 385px;
+}
+.form__terms-container {
+  padding-top: 32px;
+  border-radius: 2px;
+}
+
+/* ====== Footer ====== */
+
+.footer {
+  background-color: #d35722;
+  height: 340px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nav__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-links {
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.social-link {
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.derechos {
+  color: #fff;
+  font-family: “Inter”;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}

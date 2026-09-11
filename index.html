@@ -51,7 +51,91 @@
         <p class="info-text">Avenida del Éxito 200, Ciudad Triple Peaks</p>
       </div>
     </header>
-    <main class="content" id="reservations"></main>
-    <footer class="footer" id="Contacts"></footer>
+    <main class="content" id="reservations">
+      <div class="form-container">
+        <h1 class="form-container__title">Reservar una mesa</h1>
+        <form class="form">
+          <label for="name" class="form__label">Nombre* </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Nombre"
+            required
+            class="form__input"
+          />
+          <label for="comensales" class="form__label"
+            >Número de comensales*
+          </label>
+          <input
+            type="number"
+            id="comensales"
+            name="comensales"
+            placeholder="1-8"
+            min="1"
+            max="8"
+            required
+            class="form__input"
+          />
+          <label for="date" class="form__label">Fecha y hora* </label>
+          <input
+            type="datetime-local"
+            id="date"
+            name="date"
+            required
+            class="form__input"
+          />
+          <label for="email" class="form__label">Tu correo electrónico* </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="form__input"
+            placeholder="email@email.com"
+          />
+        </form>
+          <div class="form__button-container">
+            <button type="submit" class="form__button">
+              Reservar una mesa
+            </button>
+          </div>
+          <div class="form__terms-container">
+            <label for="Terminos-de-uso" class="form__label">
+              <input
+                type="checkbox"
+                id="Terminos-de-uso"
+                name="Terminos-de-uso"
+                required
+              />
+              Acepto los términos de uso</label      >
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer" id="contacts">
+      <nav class="nav__footer">
+        <img
+          src="imagenes/logo_coffeeshop_light.svg"
+          class="logo"
+          alt="logo triple Espresso"
+        />
+        <ul class="social-links">Redes Sociales
+          <li>
+            <img src= "imagenes/facebook_white.svg"/ class="logo" alt="logo facebook">
+            <a href="#facebook" class="social-link">Facebook</a>
+          </li>
+          <li>
+            <img src="imagenes/instagram_white.svg"/ class="logo" alt="logo instagram">
+            <a href="#instagram" class="social-link">Instagram</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="derechos">
+        <h6>
+          <img src=""/>2026 Raymundo Crespo
+        </h6>
+      </div>
+    </footer>
   </body>
 </html>
