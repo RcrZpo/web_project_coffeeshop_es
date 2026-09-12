@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>Triple Espresso</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
@@ -26,7 +26,7 @@
           <li>
             <a href="#reservations" class="nav-link">Reservar una mesa</a>
           </li>
-          <li><a href="#contacts" class="nav-link">Contactos</a></li>
+          <li><a href="#footer" class="nav-link">Contactos</a></li>
         </ul>
       </nav>
       <h1 class="header-title">
@@ -95,47 +95,58 @@
             placeholder="email@email.com"
           />
         </form>
-          <div class="form__button-container">
-            <button type="submit" class="form__button">
-              Reservar una mesa
-            </button>
-          </div>
-          <div class="form__terms-container">
-            <label for="Terminos-de-uso" class="form__label">
-              <input
-                type="checkbox"
-                id="Terminos-de-uso"
-                name="Terminos-de-uso"
-                required
-              />
-              Acepto los términos de uso</label      >
-          </div>
-
+        <div class="form__button-container">
+          <button type="submit" class="form__button">Reservar una mesa</button>
+        </div>
+        <div class="form__terms-container">
+          <label for="Terminos-de-uso" class="form__label">
+            <input
+              type="checkbox"
+              id="Terminos-de-uso"
+              name="Terminos-de-uso"
+              required
+            />
+            Acepto los términos de uso</label
+          >
+        </div>
       </div>
     </main>
-    <footer class="footer" id="contacts">
-      <nav class="nav__footer">
+    <footer class="footer" id="footer">
+      <div class="footer__content">
         <img
           src="imagenes/logo_coffeeshop_light.svg"
-          class="logo"
-          alt="logo triple Espresso"
+          class="footer__logo"
+          alt="TripleTen logo"
         />
-        <ul class="social-links">Redes Sociales
-          <li>
-            <img src= "imagenes/facebook_white.svg" class="logo" alt="logo facebook">
-            <a href="#facebook" class="social-link">Facebook</a>
-          </li>
-          <li>
-            <img src="imagenes/instagram_white.svg" class="logo" alt="logo instagram">
-            <a href="#instagram" class="social-link">Instagram</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="derechos">
-        <h6>
-          <img src=""/>2026 Raymundo Crespo
-        </h6>
+
+        <div class="footer__social">
+          <p class="footer__social-heading">Redes Sociales</p>
+          <ul class="footer_list">
+            <li class="footer_list-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="imagenes/facebook_white.svg"
+                  class="footer__social-icon"
+                  alt="Facebook icon"
+                />Facebook
+              </a>
+            </li>
+            <li class="footer_list-item">
+              <a href="#" class="footer__social-link">
+                <img
+                  src="imagenes/instagram_white.svg"
+                  class="footer__social-icon"
+                  alt="Instagram icon"
+                />
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+
+      <p class="footer__copyright">&copy; 2026 Raymundo Crespo</p>
+      <div class="footer__circle"></div>
     </footer>
   </body>
 </html>
